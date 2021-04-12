@@ -1,0 +1,62 @@
+.post {
+  background-color: rgb(109, 155, 209);
+}
+
+.line {
+  margin: 0px 50px;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 50px;
+  padding: 0px 50px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+  padding: 15px 50px;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.buttonWrapper {
+  width: 100%;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.button {
+  line-height: 25px;
+  padding: 0px 12.5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid rgb(109, 155, 209);
+  transition-property: color, background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button:enabled:hover {
+  transition-property: color, background-color;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+  background-color: rgb(109, 155, 209);
+  color: #fff
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.comment {
+  margin-bottom: 5px;
+}
+
+.comment:last-child {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,66 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.preloaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 60%;
+  height: 100%;
+  margin: 25px auto;
+}
+
+.post {
+  margin-bottom: 50px;
+}
+
+.post:last-child {
+  margin-bottom: 0px;
+}
+
+.buttonWrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  font-size: 14px;
+  line-height: 30px;
+  padding: 0px 14px;
+  cursor: pointer;
+  background-color: transparent;
+  background-color: rgb(109, 155, 209);
+  border: none;
+  color: #fff;
+  transition: background-color 100ms ease-in-out;
+  outline: none;
+  margin-top: 50px;
+}
+
+.button:enabled:hover {
+  background-color: rgb(109, 209, 117);
+  color: #fff;
+  transition: background-color 100ms ease-in-out;
+}
+
+.button:disabled {
+  background-color: rgb(184, 196, 209);
+  cursor: default;
+}
+
+.comments {
+  margin-top: 5px;
+  background-color: rgb(201, 147, 226);
+}

@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+  background-color: rgb(89, 132, 180);
+  padding: 0px 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.top {
+  padding: 10px 0px;
+}
+
+.bottom {
+  padding: 10px 0px;
+}
+
+.name {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.email {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.body {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
