@@ -6,4 +6,5 @@ Redux, redux-thunk, hooks, reselect
 
 # Other
 Server API was taken from https://jsonplaceholder.typicode.com/
+
 To execute the app, type "yarn start"
