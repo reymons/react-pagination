@@ -4,7 +4,7 @@ Just learning and testing pagination with react
 # technology stack
 Redux, redux-thunk, hooks, reselect
 
-# Other
+# other
 Server API was taken from https://jsonplaceholder.typicode.com/
 
 To execute the app, type "yarn start"
